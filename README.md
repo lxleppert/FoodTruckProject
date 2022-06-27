@@ -9,7 +9,7 @@ The user can then view:
 - the average truck rating
 - the highest rated truck(s)
 
-## Usage:
+## Usage
 User inputs 0 to 5 truck(s) and their respective information when prompted.
 
 User can then choose from a menu to display related truck information and then quit.
@@ -34,7 +34,7 @@ Displaying the highest rated truck(s) will show more than one truck if they are 
 - Average food truck rating
 - Highest rated food truck
 
-###### Output Example
+###### Output Examples
 ```formatted output
 Welcome to the Food Truck Reviewer
   Please enter up to five trucks:
@@ -45,37 +45,18 @@ Enter the Truck's Food Type:
 Gourmet fast food
 Enter the Truck's Rating (1-10): 
 5
-Enter the Food Truck's Name: 
-Snarfs
-Enter the Truck's Food Type: 
-The Greatest subs in the country
-Enter the Truck's Rating (1-10): 
-9
-Enter the Food Truck's Name: 
-The Pumphouse
-Enter the Truck's Food Type: 
-Americana
-Enter the Truck's Rating (1-10): 
-6
-Enter the Food Truck's Name: 
-Mom's 123
-Enter the Truck's Food Type: 
-Mom's cooking
-Enter the Truck's Rating (1-10): 
-9
-Enter the Food Truck's Name: 
-Juan's Taco Shack
-Enter the Truck's Food Type: 
-Tacos
-Enter the Truck's Rating (1-10): 
-8
+```
 
+```formatted output
 MENU
   Select one of the following:
     1 List Food Trucks
     2 Show Average Rating
     3 Show Highest Rated Food Truck(s)
     4 Quit
+```
+
+```formatted output
 1
 FOOD TRUCK LIST
 ---------------
@@ -84,33 +65,21 @@ Food Truck [4602], Truck Name: [Snarfs], Food Type: [The Greatest subs in the co
 Food Truck [4603], Truck Name: [The Pumphouse], Food Type: [Americana], Truck Rating: [6]
 Food Truck [4604], Truck Name: [Mom's 123], Food Type: [Mom's cooking], Truck Rating: [9]
 Food Truck [4605], Truck Name: [Juan's Taco Shack], Food Type: [Tacos], Truck Rating: [8]
+```
 
-MENU
-  Select one of the following:
-    1 List Food Trucks
-    2 Show Average Rating
-    3 Show Highest Rated Food Truck(s)
-    4 Quit
+```formatted output
 2
 Average Food Truck Rating is: 7.4
+```
 
-MENU
-  Select one of the following:
-    1 List Food Trucks
-    2 Show Average Rating
-    3 Show Highest Rated Food Truck(s)
-    4 Quit
+```formatted output
 3
 The Highest Rated Food Truck(s):
 Food Truck [4602], Truck Name: [Snarfs], Food Type: [The Greatest subs in the country], Truck Rating: [9]
 Food Truck [4604], Truck Name: [Mom's 123], Food Type: [Mom's cooking], Truck Rating: [9]
+```
 
-MENU
-  Select one of the following:
-    1 List Food Trucks
-    2 Show Average Rating
-    3 Show Highest Rated Food Truck(s)
-    4 Quit
+```formatted output
 4
 Enjoy the food!
 ```
