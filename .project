@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>JUnit</name>
+			<type>2</type>
+			<location>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20211018-1956/junit/framework</location>
+		</link>
+	</linkedResources>
 </projectDescription>
