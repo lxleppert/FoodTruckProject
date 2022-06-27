@@ -56,7 +56,6 @@ public class FoodTruckApp {
 		inputString = "";
 
 		while (!inputString.equals("4")) {
-			int highestRated = 0;
 			int highestRating = 0;
 			double total = 0;
 
@@ -90,14 +89,12 @@ public class FoodTruckApp {
 					break;
 
 				case "3":
-					highestRated = 0;
 					highestRating = 0;
 
 					System.out.println("The Highest Rated Food Truck(s):");
 
 					for (int i = 0; i < numberOfTrucks; i++) {
 						if (foodTruckFleet[i].getTruckRating() > highestRating) {
-							highestRated = i;
 							highestRating = foodTruckFleet[i].getTruckRating();
 						}
 					}
